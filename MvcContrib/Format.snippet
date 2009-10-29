@@ -2,27 +2,27 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>TextArea</Title>
+      <Title>AppendFormat</Title>
       <Author>Jim Mitchener</Author>
-      <Description>Create a new MvcContrib TextArea</Description>
+      <Description>Append .Format() to a MvcContrib string</Description>
       <HelpUrl></HelpUrl>
       <SnippetTypes />
       <Keywords />
-      <Shortcut>tta</Shortcut>
+      <Shortcut>fmt</Shortcut>
     </Header>
     <Snippet>
       <References />
       <Imports />
       <Declarations>
         <Literal Editable="true">
-          <ID>ModelProperty</ID>
+          <ID>FormatString</ID>
           <Type></Type>
           <ToolTip></ToolTip>
-          <Default>MyModelProperty</Default>
+          <Default>MyFormatString</Default>
           <Function></Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp" Kind="" Delimiter="$"><![CDATA[this.TextArea(m => m.$ModelProperty$)$end$]]></Code>
+      <Code Language="csharp" Kind="" Delimiter="$"><![CDATA[.Format("$FormatString$")$end$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
