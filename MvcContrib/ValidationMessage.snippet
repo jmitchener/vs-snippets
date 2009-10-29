@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ValidationMessage</Title>
+      <Author>Jim Mitchener</Author>
+      <Description>Create new MvcContrib this.ValidationMessage()</Description>
+      <HelpUrl></HelpUrl>
+      <SnippetTypes />
+      <Keywords />
+      <Shortcut>tvalid</Shortcut>
+    </Header>
+    <Snippet>
+      <References />
+      <Imports />
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Property</ID>
+          <Type></Type>
+          <ToolTip></ToolTip>
+          <Default>MyModelProperty</Default>
+          <Function></Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Message</ID>
+          <Type></Type>
+          <ToolTip></ToolTip>
+          <Default>ValidationMessage</Default>
+          <Function></Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="" Delimiter="$"><![CDATA[this.ValidationMessage(m => m.$Property$, "$Message$")$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
